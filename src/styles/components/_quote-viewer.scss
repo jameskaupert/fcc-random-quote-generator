@@ -1,4 +1,41 @@
+// Quote Viewer
+
 .quote-viewer {
-    padding: $xl-size;
+    padding: $l-size;
     flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+.quote-viewer__text {
+    margin: 0;
+    font-family: $font-serif;
+    font-size: $l-size;
+    font-weight: bold;
+}
+
+.quote-viewer__author {
+    text-align: right;
+    font-family: $font-serif;
+    font-size: $m-size;
+}
+
+// Button Container
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+// Button styling
+.btn {
+    color: #fff;
+    font-size: $m-size;
+    font-family: $font-serif;
+    background: $primary;
+    border: 0;
+    border-radius: 13px;
+    padding: $s-size $m-size;
+    outline: none;
+}
+

@@ -3,9 +3,10 @@ html {
 }
 
 body {
-    background: $primary;
+    background: darken($dark-primary, 10%);
     color: $text-on-light;
     font-size: $m-size;
+    font-family: 'Slabo 27px', serif;
 }
 
 .main-container {

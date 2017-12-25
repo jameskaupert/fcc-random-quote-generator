@@ -1,6 +1,6 @@
 import React from "react";
 export default class SourceSelector extends React.Component {
-  render() {
+    render() {
     return (
       <section className="source-selector">
         <ul>
