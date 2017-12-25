@@ -6,6 +6,10 @@
   "repository": "https://github.com/jameskaupert/fcc-random-quote-generator.git",
   "author": "James Kaupert <jameskaupert@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev-server": "webpack-dev-server",
+    "build": "webpack"
+  },
   "dependencies": {
     "babel-cli": "6.26.0",
     "babel-core": "6.26.0",
