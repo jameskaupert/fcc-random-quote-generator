@@ -1,0 +1,17 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: $primary;
+    color: $text-on-light;
+    font-size: $m-size;
+}
+
+.main-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}

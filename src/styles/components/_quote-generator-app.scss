@@ -1,0 +1,13 @@
+.quote-box {
+    width: 50rem;
+    height: 30rem;
+    background: #fff;
+    display: flex;
+    border-radius: 26px;
+    border: 1px solid $divider;
+    overflow: hidden;
+}
+
+.quote-box__text {
+    margin: 0;
+}
